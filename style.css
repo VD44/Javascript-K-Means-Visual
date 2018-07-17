@@ -1,0 +1,46 @@
+#canvas{
+  background-color: white;
+  border: 2px solid;
+}
+
+#demo-con {
+  background-color: #eee;
+  display: table;
+  width: 750px;
+  padding: 8px;
+}
+
+#demo, #side-bar {
+  display: table-cell;
+  padding: 2px 6px;
+}
+
+#demo {
+  background-color: #eee;
+  white-space: nowrap;
+}
+
+#side-bar {
+  vertical-align:top;
+  width: 200px;
+}
+
+.demo-con{
+  padding: 30px 0px;
+}
+
+.demo-con {
+  background-color: #eee;
+}
+
+.canvas-div{
+  padding: 8px 0px;
+}
+
+.inp, .btn, .select{
+  margin-bottom: 16px;
+}
+
+.inp, .select{
+  width: 64px;
+}

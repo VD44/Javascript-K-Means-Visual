@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>K Means</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="demo-con" class="col-md-8 col-md-offset-2">
+                <div id="demo">
+                    <canvas id="canvas" class="inline-block" height="512" width="512"></canvas>
+                </div>
+                <div id="side-bar">
+                    <strong>Num Centroids (K)</strong>
+                    <input id="num-centroids" type="text" class="inp form-control text-center" value="3">
+                    <strong>Base Clusters</strong>
+                    <select id="select-cluster" class="form-control select"></select>
+                    <button id="visualize" type="button" class="btn btn-secondary">Visualize K-means</button>
+                    <button id="clear" type="button" class="btn btn-secondary">Clear</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./app.js"></script>
+</html>
