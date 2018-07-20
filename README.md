@@ -4,10 +4,10 @@ An interactive visualization of the K-Means clustering algorithm in Javascript.
 <img src="./km.png">
 
 Run with parcel:
+```bash  
+$ npm install -g parcel-bundler
+$ npm init -y
+$ parcel index.html
     
-    $ npm install -g parcel-bundler
-    $ npm init -y
-    $ parcel index.html
-    
-    Server running at http://localhost:1234 
-    ✨  Built in 70ms.
+Server running at http://localhost:1234 
+✨  Built in 70ms.
